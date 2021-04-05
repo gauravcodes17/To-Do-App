@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+      <div class="wrapper">
+        <h1>ToDo App</h1>
+        <div class="input">
+          <input type="text" class="" placeholder="Enter Your Task" id="addtaskinput" />
+          <input type="hidden" id="saveindex" />
+          <button type="button" class="my-btn" id="addtaskbtn">
+            <i class="fas fa-plus"></i>
+          </button>
+          <button type="button" class="my-btn-save" id="addsavebtn" style="display: none;">
+            <i class="fas fa-save"></i>
+          </button>
+          <button type="button" id="deleteallbtn" class="my-btn2">
+            <i class="fas fa-trash"></i>
+          </button>
+        </div>
+        <div class="to-do-output">
+          <table class="table table-striped mt-3 mb-0" id="addedtasklist">
+
+          </table>
+        </div>
+      </div>
+      
+
+
+    <script src="main.js"></script>
+</body>
+</html>

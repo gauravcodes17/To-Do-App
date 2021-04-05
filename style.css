@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #9b59b6!important;
+}
+.wrapper{
+    width: 450px;
+    min-height: 520px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 20px;
+}
+.wrapper h1{
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+.wrapper .input input{
+    width: 79%;
+    height: 40px;
+    padding-left: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #9b59b6;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    transition: 0.4s ease all;
+}
+.wrapper .input input:focus{
+    border: 2px solid #ccc;
+}
+.wrapper .input .my-btn{
+    outline: none;
+    background-color: green;
+    font-size: 16px;
+    padding: 7px 11px;
+    color: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.wrapper .input .my-btn-save{
+    outline: none;
+    background-color: teal;
+    font-size: 16px;
+    padding: 7px 11px;
+    color: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.wrapper .input .my-btn2{
+    outline: none;
+    background-color: #d63031;
+    font-size: 16px;
+    padding: 7px 11px;
+    color: #fff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    border-radius: 5px;
+}
+table tr td{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    color: #000;
+    text-transform: capitalize;
+}
+table tr td button{
+    background: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 15px;
+    outline: none!important;
+}
+table tr td button.edit{
+    color: blueviolet;
+}
+table tr td button.delete{
+    color: #d63031;
+}
+@media only screen and (max-width : 450px){
+    .wrapper{
+        width: 100%;
+        padding: 30px 15px;
+        min-height: 90vh;
+    }
+    .wrapper .input input{
+        width: 74%;
+    }
+}
