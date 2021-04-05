@@ -92,5 +92,5 @@ deleteall.addEventListener("click", function(){
     addtaskinput.value = '';
     addsavebtn.style.display = "none";
     addtaskbtn.style.display = "inline-block";
-    alert("All Task Deleted Succesfully");
+    alert("All Task Deleted Successfully");
 })
